@@ -22,9 +22,20 @@ Testing JS using 'Jest' a JS testing framework
 ## How to run
 Clone this repo  
 
-    yarn install
-    yarn test  
+```
+yarn install
+yarn test
+```
+#### For Test Coverage Insights
+```
+yarn testCov
+```
 
 ## Test OP 
+### Test results
+![testOp](testOP.png)  
+  
+### Test results with Code Coverage
+![testCoverageOp](testCoverageOP.png)  
 
-![testOp](testOP.png)
+###### Look Up coverage\lcov-report\index.html for more insights on lines of code, functions, statements tested.

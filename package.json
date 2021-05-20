@@ -9,7 +9,8 @@
   "description": "jest testing",
   "devDependencies": {},
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "testCov" : "jest --coverage"
   },
   "repository": {
     "type": "git",
